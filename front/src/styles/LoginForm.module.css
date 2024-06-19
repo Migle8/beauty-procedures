@@ -1,0 +1,45 @@
+.loginBackground {
+    background-image: url("../assets/s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+    height: 100vh;
+    min-width: 360px;
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.mainHeader {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.loginPageForm {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    background-color: #0808087a;
+    padding: 2rem;
+    border-radius: 1.6rem;
+    margin-top: 15rem;
+}
+
+.loginText {
+    color: #fff;
+}
+
+.signupText {
+    color: #fff;
+    padding-left: 0.5rem;
+}
+
+.signupError {
+    color: red;
+}

@@ -1,0 +1,20 @@
+.deleteCloseBtn {
+    display: flex;
+    justify-content: end;
+}
+
+.deleteConfirm {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.deleteModalBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.deleteCancelBtn {
+    border-color: #ffffff9d;
+    margin-right: 1rem;
+}

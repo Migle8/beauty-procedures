@@ -1,0 +1,67 @@
+.proceduresList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.proceduresPagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.procedureCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.moreInfoBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.editDeleteBtns {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.deleteBtn {
+  border-color: #ffffff9d;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0 1rem;
+}
+
+.searchInput {
+  width: 50%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.sortContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sortSelect {
+  padding: 0.62rem;
+  border: 1px solid #ccc;
+  border-radius: 0 0.5rem 0.5rem 0;
+}

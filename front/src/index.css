@@ -1,0 +1,57 @@
+.navbar {
+  --bs-navbar-padding-y: 0;
+  color: #6e6d6d;
+  width: 100%;
+  min-width: 360px;
+}
+
+.container {
+  /* margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex !important;
+    justify-content: space-between !important; */
+  max-width: 100%;
+}
+
+.navbar-nav {
+  width: 100px;
+}
+
+.pagination {
+  --bs-pagination-bg: #000;
+  --bs-pagination-color: #fff;
+  --bs-pagination-border-color: #ffffffd0;
+  --bs-pagination-hover-color: #fff;
+  --bs-pagination-hover-bg: rgb(49, 49, 49);
+  --bs-pagination-active-color: #000;
+  --bs-pagination-active-bg: #ffc107;
+  --bs-pagination-active-border-color: #ffc107;
+  --bs-pagination-disabled-color: #fff;
+  --bs-pagination-disabled-bg: #424242;
+  --bs-pagination-disabled-border-color: #fff;
+  margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(90deg, #e0a904, #000);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(90deg, #ffc107, #292929);
+}
+
+::selection {
+  color: #000;
+  background: #e0a904;
+}

@@ -1,0 +1,48 @@
+.mainBackground {
+    background-image: url("../assets/s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100vh;
+    min-width: 360px;
+}
+
+.homePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+
+.homeHeader {
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.homeCreateBtn {
+    width: 15rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.homeExcursionsList {
+    display: flex;
+    flex-direction: row;
+}
+
+.userName {
+    margin: 0 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .homeHeader {
+        font-size: 3rem;
+    }
+
+    .userName {
+        margin-right: 2rem;
+    }
+}

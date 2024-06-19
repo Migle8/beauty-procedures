@@ -1,0 +1,33 @@
+.createProcedure {
+    margin-top: 10rem;
+}
+
+.createProcedureModal {
+    padding: 1rem;
+}
+
+.createProcedureCloseBtn {
+    display: flex;
+    justify-content: end;
+}
+
+.createProcedureHeader {
+    color: #fff;
+    text-align: center;
+}
+
+.errorStyle {
+    color: #ff3c3c;
+    font-size: 0.8rem;
+}
+
+.createProcedureButtons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.createProcedureCancelBtn {
+    border-color: #ffffff9d;
+    margin-right: 1rem;
+}

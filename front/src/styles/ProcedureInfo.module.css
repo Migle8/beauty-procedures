@@ -1,0 +1,92 @@
+.procedureBackBtn {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 5rem;
+    margin-left: 1rem;
+}
+
+.procedureInfoPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.procedurePage {
+    background-color: #0000008c;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.procedureInformation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 2rem;
+}
+
+.procedureImage {
+    margin-bottom: 2rem;
+    max-width: 400px;
+}
+
+.procedureDate, .procedureTime, .procedurePrice, .procedureCategory {
+    color: #fff;
+}
+
+.procedureRegisterDate {
+    text-align: center;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.procedureButtons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.registerText {
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.procedureRatings {
+    background-color: #0000008c;
+    margin-top: 1rem;
+    min-width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.procedurenComment {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .procedureInformation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .procedureImage {
+        width: 400px;
+    }
+
+    .procedureShortInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    .procedureComment {
+        margin: 1rem;
+    }
+}
